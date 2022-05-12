@@ -106,5 +106,10 @@ namespace Juego_Submarino
         {
             Obstaculo.Location = (Obstaculo.Location.X > -480) ? new Point((Obstaculo.Location.X) - 1, Obstaculo.Location.Y) : Obstaculo.Location = new Point(-9, Obstaculo.Location.Y);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

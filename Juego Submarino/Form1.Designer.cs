@@ -132,6 +132,7 @@
             this.Controls.Add(this.ObstaculoArriba);
             this.Name = "Form1";
             this.Text = "Juego Submarino";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.ObstaculoArriba)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ObstaculoAbajo)).EndInit();
