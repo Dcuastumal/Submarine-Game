@@ -16,7 +16,7 @@ namespace Juego_Submarino
         int Distancia = 0;
         bool VolarArriba = false;
         Random posicionRandom = new Random();
-        SoundPlayer cancion = new SoundPlayer("C:/Users/57311/Desktop/Images/musica.wav");
+        SoundPlayer cancion = new SoundPlayer("D:/VS22/All Documents/Juego Submarino/Juego Submarino/Resources/musica.wav");
         public Form1()
         {
             InitializeComponent();
